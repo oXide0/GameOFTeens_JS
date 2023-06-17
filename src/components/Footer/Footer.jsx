@@ -7,7 +7,7 @@ function Footer() {
 		<footer className={style.footer}>
 			<div className={style.footer__row}>
 				<Link to='/' className={style.footer__logo}>
-					<img src='img/logo.svg' alt='footer_logo' />
+					<img src='img/logo.png' alt='footer_logo' className='logo' />
 				</Link>
 				<div className={style.footer__media}>
 					<Link className={style.media__block} to='https://www.instagram.com/'>

@@ -55,8 +55,8 @@ function Home() {
 							<img src='img/IOS.png' alt='' />
 						</div>
 						<div className={style.startup__col}>
-							<InfoBlock title='Trading Charts' imgName='stat' />
-							<InfoBlock title='Real Time Trading' imgName='trade' />
+							<InfoBlock title='Startup Charts' imgName='stat' />
+							<InfoBlock title='Exchange of ideas' imgName='trade' />
 						</div>
 					</div>
 					<div className={style.startup__row_3}>

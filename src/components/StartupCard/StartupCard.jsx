@@ -1,7 +1,8 @@
 import style from './StartupCard.module.css';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-function StartupCard({ imgNum, title, desc, setActive }) {
+function StartupCard({ imgNum, title, desc, setActive, path }) {
 	const [investment, setInvestment] = useState(0);
 
 	return (
@@ -15,7 +16,9 @@ function StartupCard({ imgNum, title, desc, setActive }) {
 			</div>
 			<p className={style.card__invest}>{investment}/30.000$</p>
 			<div className={style.card__buttons}>
-				<button className={style.card__btn}>View</button>
+				<Link to={path} className={style.card__btn}>
+					View
+				</Link>
 				<button className={style.card__btn} onClick={() => setActive(true)}>
 					Donate
 				</button>

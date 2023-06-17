@@ -9,7 +9,7 @@ function Header() {
 	return (
 		<header className={style.header}>
 			<NavLink to='/' className={style.header__logo}>
-				<img src='img/logo.svg' alt='header_logo' />
+				<img src='img/logo.png' alt='header_logo' className='logo' />
 			</NavLink>
 			<nav className={menuActive ? `${style.header__menu} ${style.active}` : style.header__menu}>
 				<NavLink

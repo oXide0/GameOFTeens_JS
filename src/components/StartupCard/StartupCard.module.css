@@ -44,6 +44,8 @@
     border-radius: 5px;
     cursor: pointer;
     transition: .1s;
+    text-decoration: none;
+    text-align: center;
 }
 .card__btn:hover {
     background: #0744a7;

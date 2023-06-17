@@ -41,9 +41,6 @@
 .modal__form {
     padding-top: 20px;
 }
-.modal__input_block {
-    padding-top: 15px;
-}
 .modal__input {
     width: 100%;
     font-weight: 400;
@@ -54,9 +51,9 @@
     border-radius: 4px;
     outline: none;
     color: #010725;
+    background: #fff;
 }
 .card_input {
-    margin-top: 20px;
     background: #fff;
     border: 2px solid #A1B0CC;
     padding: 8px 0;
