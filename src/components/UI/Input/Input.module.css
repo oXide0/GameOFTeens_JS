@@ -1,0 +1,34 @@
+.input__block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.label {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 15px 0 15px 25px;
+    border: none;
+    outline: none;
+    background: #010725;
+    border-radius: 100px;
+    width: 364px;
+    border: 2px solid #010725;
+}
+.input:focus {
+    border: 2px solid #0328EE;
+}
+@media (max-width: 768px) {
+    .input {
+        width: 100%;
+    }
+}

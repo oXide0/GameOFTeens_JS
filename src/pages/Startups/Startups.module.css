@@ -1,0 +1,33 @@
+.startups {
+    padding-top: 80px;
+}
+.startups__title {
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+.startups__blocks {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.blocks__row {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1200px) {
+    .startups {
+        padding-top: 100px;
+    }
+    .startups__blocks {
+        align-items: center;
+    }
+    .blocks__row {
+        flex-direction: column;
+        gap: 40px;
+    }
+}

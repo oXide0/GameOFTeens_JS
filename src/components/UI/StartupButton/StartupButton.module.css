@@ -1,0 +1,19 @@
+.startup_btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 20px 32px;
+    border: none;
+    background: #0328EE;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: all 0.1s;
+    text-decoration: none;
+}
+.startup_btn:hover {
+    background: #0720b2;
+}
+.startup_btn:active {
+    background: #0b1a8c;
+}

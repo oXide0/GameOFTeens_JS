@@ -1,0 +1,137 @@
+.title {
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    padding: 80px 0;
+}
+
+h3{
+    color: #010D50;
+    font-size: 32px;
+}
+
+.event__preview{
+    width: 1075px;
+    height: 290px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 38px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.event__info p{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.right{
+    align-self: flex-end;
+}
+
+@media (max-width: 1320px){
+    
+    .event__preview{
+        height: 270px;
+        width: 920px;
+        padding: 25px;
+    }
+
+    .events__section .event__photo{
+        width: 380px;
+    }
+
+    h3{
+        font-size: 26px;
+    }
+
+    .events__section{
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 1000px){
+    
+    .events__section{
+        max-width: 720px;
+    }
+
+    .event__preview{
+        width: 680px;
+        padding: 20px;
+        height: 250px;
+    }
+
+    .events__section .event__photo{
+        width: 300px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .event__info p{
+        font-size: 18px;
+        gap: 15px;
+    }
+
+    .event__info__icon{
+        width: 20px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    
+    .events__section{
+        max-width: 460px;
+    }
+
+    .event__preview{
+        gap: 20px;
+        padding: 20px;
+        width: 420px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .right, .event__preview{
+        align-self: center;
+    }
+}
+
+@media (max-width: 460px) {
+    
+    .events__section{
+        max-width: 350px;
+    }
+
+    .event__preview{
+        gap: 20px;
+        padding: 20px;
+        width: 330px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .right, .event__preview{
+        align-self: center;
+    }
+
+    .events__section .event__photo{
+        width: 290px;
+    }
+}

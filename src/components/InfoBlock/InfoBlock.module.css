@@ -1,0 +1,22 @@
+.block {
+    background: #010725;
+    border-radius: 40px;
+    padding: 48px 23px;
+    width: 325px;
+}
+.block__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-top: 7px;
+}

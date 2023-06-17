@@ -1,0 +1,128 @@
+.start {
+    padding-top: 100px;
+}
+.start__row {
+    display: flex;
+}
+.start__title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+    background: linear-gradient(93.3deg, #03BBF5 -32.57%, #0454EF 101.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.start__text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 9px;
+}
+.start__col {
+    padding-top: 50px;
+}
+.start__btn {
+    padding-top: 42px;
+}
+.start__row {
+    display: flex;
+    justify-content: space-between;
+}
+.start__row_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.start__col_2 {
+    text-align: center;
+}
+.start__number {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #33CCFF;
+}
+.number__text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* ----------------- STARTUPS ----------------- */
+.startup {
+    padding-top: 150px;
+}
+.startup__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.startup__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.startup__row_2 {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.startup__col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.startup__row_3 {
+    padding-top: 48px;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .start {
+        padding-top: 50px;
+    }
+    .start__img {
+        display: none;
+    }
+    .startup__row_2 {
+        justify-content: center;
+        gap: 40px;
+    }
+    .startup__img {
+        display: none;
+    }
+}
+@media  (max-width: 768px) {
+    .start {
+        padding-top: 50px;
+    }
+    .start__img {
+        display: none;
+    }
+    .startup__row_2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .startup__img {
+        display: none;
+    }
+    .start__row_2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .start__title {
+        font-size: 58px;
+        line-height: 84px;
+    }
+    .start__text {
+        font-size: 26px;
+    }
+}
